@@ -1,0 +1,226 @@
+/*
+ * STM32407xx_driver.h
+ *
+ *  Created on: Jul 27, 2024
+ *      Author: balaji
+ */
+
+#ifndef INC_STM32407XX_DRIVER_H_
+#define INC_STM32407XX_DRIVER_H_
+
+
+#include <stdint.h>
+#define __vo volatile
+
+/*
+ * BASE ADDRESSES OF MEMORY UNITS IN STM32F4xx
+ */
+#define FLASH_BASEADDR			0x08000000U
+#define SRAM1_BASEADDR			0x20000000U
+#define SRAM2_BASEADDR			0x20010000U
+#define SYSTEM_BASEADDR			0x1FFF0000U
+#define SRAM_BASEADDR			SRAM1_BASEADDR
+
+/*
+ * BASE ADDRESSES OF BUS (AHBx and APBx)
+ */
+#define PERIPH_BASEADDR					0x04000000U
+#define APB1PERIPH_BASEADDR				PERIPH_BASEADDR
+#define APB2PERIPH_BASEADDR				0x40010000U
+#define AHB1PERIPH_BASEADDR				0x40020000U
+#define AHB2PERIPH_BASEADDR				0x50000000U
+
+/*
+ * BASE ADDRESSES OF PERIPHERALS HANGING ON AHB1 BUS
+ */
+#define GPIOA_BASEADDR		(AHB1PERIPH_BASEADDR + 0x0000)
+#define GPIOB_BASEADDR		(AHB1PERIPH_BASEADDR + 0x0400)
+#define GPIOC_BASEADDR		(AHB1PERIPH_BASEADDR + 0x0800)
+#define GPIOD_BASEADDR		(AHB1PERIPH_BASEADDR + 0x0C00)
+#define GPIOE_BASEADDR		(AHB1PERIPH_BASEADDR + 0x1000)
+#define GPIOF_BASEADDR		(AHB1PERIPH_BASEADDR + 0x1400)
+#define GPIOG_BASEADDR		(AHB1PERIPH_BASEADDR + 0x1800)
+#define GPIOH_BASEADDR		(AHB1PERIPH_BASEADDR + 0x1C00)
+#define GPIOI_BASEADDR		(AHB1PERIPH_BASEADDR + 0x2000)
+#define RCC_BASEADDR		(AHB1PERIPH_BASEADDR + 0x3800)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* INC_STM32407XX_DRIVER_H_ */
